@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #ffffff;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.nav{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    margin: 0%;
+    font-weight: bold;
+}
+.nav a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #222;
+    font-size: 20px;
+}
+.hero img{
+    width: 450px;
+    border-radius: 8px;
+}
+.hero{
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+.hero-content{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.hero-text p{
+    margin-bottom: 20px;
+    color: #555;
+}
+.btn{
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.bikes{
+    padding: 40px 0;
+    background-color: #ffffff;   
+}
+.section-text{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+}
+.bike-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.bike-cards{
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.bike-card img{
+    width: 100%;
+    border: 6px;
+}
+.bike-card h3{
+    margin: 10px 0px 5px 0px;
+}
+.price{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+}       
+.bike-card p{
+    font-size: 14px;
+    color: #555;
+}
+/* About Section */
+.about {
+    background: #f5f5f5;
+    padding: 40px 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+/* Contact Section */
+.contact {
+    padding: 40px 0;
+    background: #ffffff;
+}
+
+.contact-box {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.contact-box button {
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-box button:hover {
+    background: #0056b3;
+}
+/* Footer */
+footer {
+    background: #f5f5f5;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer-content {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.footer-content nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+.footer-content nav a:hover {
+    color: #007bff;
+}
+
